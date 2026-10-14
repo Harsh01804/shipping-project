@@ -1,0 +1,7 @@
+Reproducibility check over 3 separate script runs on the same input data.
+
+Run 1 SHA256: bc17a7a5eabd92f85f3ee2cea2dacadc9d2e16dd918541e77bf9225988463c99
+Run 2 SHA256: bc17a7a5eabd92f85f3ee2cea2dacadc9d2e16dd918541e77bf9225988463c99
+Run 3 SHA256: bc17a7a5eabd92f85f3ee2cea2dacadc9d2e16dd918541e77bf9225988463c99
+
+Result: identical across all three runs. No random sampling or temperature-based LLM calls are used; the verdicts and numerical outputs are deterministic.
